@@ -36,7 +36,7 @@ export default {
     scss: './assets/scss/*.scss',
   },
 
-  modules: [],
+  modules: ['@nuxtjs/axios'],
 
   build: {},
 }
