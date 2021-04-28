@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="Header">
     <header>
       <Logo />
     </header>
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Logo from './Logo'
+import Logo from './Logo/Logo'
 
 export default {
   name: 'Header',

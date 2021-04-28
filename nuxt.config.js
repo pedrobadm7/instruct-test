@@ -30,7 +30,31 @@ export default {
 
   components: true,
 
-  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/eslint-module'],
+  buildModules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/vuetify',
+    [
+      '@nuxtjs/fontawesome',
+      {
+        component: 'fa',
+        suffix: true,
+      },
+    ],
+  ],
+
+  fontawesome: {
+    icons: {
+      solid: [
+        'faCalendar',
+        'faUser',
+        'faEnvelope',
+        'faPhoneSquareAlt',
+        'faBuilding',
+        'faSearch'
+      ],
+    },
+  },
 
   styleResources: {
     scss: './assets/scss/*.scss',
@@ -39,4 +63,6 @@ export default {
   modules: ['@nuxtjs/axios'],
 
   build: {},
+
+  modulesDir: ['node_modules/font-awesome'],
 }

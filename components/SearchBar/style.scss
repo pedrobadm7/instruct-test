@@ -1,0 +1,49 @@
+.v-form {
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+
+  .v-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .v-text-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    height: auto;
+    padding: 15px;
+
+    border-radius: 10px;
+  }
+
+  .v-btn {
+    position: relative;
+    bottom: 10px;
+
+    .fa-icon {
+      margin: 10px;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .v-col {
+    display: flex;
+    flex-direction: column;
+  }
+}

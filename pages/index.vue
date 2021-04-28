@@ -1,18 +1,19 @@
 <template>
-  <div id="leads">
+  <div id="App">
     <Header />
-    <Leads />
+    <Wrapper />
+    <Header />
   </div>
 </template>
 
 <script>
 import Header from '../components/Header'
-import Leads from '../components/Leads/Leads'
+import Wrapper from '../components/Wrapper/Wrapper'
 export default {
   name: 'App',
   components: {
     Header,
-    Leads,
+    Wrapper,
   },
 }
 </script>

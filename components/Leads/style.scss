@@ -1,35 +1,52 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: column;
   border-radius: 20px;
   width: 100%;
   background: $default;
   padding-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
 
   .leads__title {
     color: $grey;
   }
 }
 
+@media (max-width: 393px) {
+  .content {
+    img {
+      display: none;
+    }
+  }
+}
+@media (max-width: 944px) {
+  .content {
+    img {
+      display: none;
+    }
+  }
+}
+
 .Leads {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   width: 100%;
-  max-width: 476px;
-  flex-direction: column;
-  row-gap: 35px;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   .content {
-    width: 100%;
+    width: calc(50% - 20px);
+    min-width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: $grey;
     margin-top: 15px;
-    padding: 1rem;
     border-radius: 10px;
+    margin: 10px auto;
+    padding: 15px;
 
     .img-profile {
       width: 160px;
@@ -42,12 +59,15 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      gap: 5px;
 
       .items {
         width: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        gap: 5px;
+        margin-top: 5px;
 
         h1 {
           font-size: 0.9rem;
@@ -56,7 +76,7 @@
         }
 
         p {
-          font-size: smaller;
+          font-size: 12px;
         }
       }
     }
