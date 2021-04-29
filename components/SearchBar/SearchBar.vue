@@ -5,7 +5,7 @@
       <v-col cols="12" sm="6" class="v-col">
         <v-text-field
           type="search"
-          placeholder="Procure por um nome. Ex: 'Leanne Graham'"
+          placeholder="Procure por um nome ou categoria de empresa"
           class="v-text-field"
           :value="value"
           @input.native="$emit('input', $event.target.value)"

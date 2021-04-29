@@ -1,0 +1,42 @@
+.leadsOff {
+  border-radius: 20px;
+  background: $default;
+  padding-bottom: 20px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-bottom: 250px;
+
+  .leads {
+    color: $grey;
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media (max-width: 944px) {
+  .leadsOff {
+    margin-bottom: 400px;
+  }
+}
+
+@media (max-width: 944px) {
+  .leadsOff {
+    margin-bottom: 340px;
+  }
+}
+
+h1 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 12px;
+}

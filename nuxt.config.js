@@ -51,7 +51,8 @@ export default {
         'faEnvelope',
         'faPhoneSquareAlt',
         'faBuilding',
-        'faSearch'
+        'faSearch',
+        'faMapMarkerAlt'
       ],
     },
   },

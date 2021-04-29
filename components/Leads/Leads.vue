@@ -16,6 +16,18 @@
             <p>{{ item.name }}</p>
           </div>
           <div class="items">
+            <fa-icon icon="building" />
+            <h1>Company:</h1>
+
+            <p>{{ item.company.name }}</p>
+          </div>
+          <div class="items">
+            <fa-icon icon="building" />
+            <h1>Company Bs:</h1>
+
+            <p>{{ item.company.bs }}</p>
+          </div>
+          <div class="items">
             <fa-icon icon="envelope" />
             <h1>E-mail:</h1>
 
@@ -27,11 +39,15 @@
 
             <p>{{ item.phone }}</p>
           </div>
-          <div class="items">
-            <fa-icon icon="building" />
-            <h1>Company:</h1>
 
-            <p>{{ item.company.name }}</p>
+          <div class="items">
+            <fa-icon icon="map-marker-alt" />
+            <h1>Endereço:</h1>
+
+            <p>
+              {{ item.address.street }}, {{ item.address.suite }},
+              {{ item.address.zipcode }}, {{ item.address.city }}
+            </p>
           </div>
         </div>
       </div>
