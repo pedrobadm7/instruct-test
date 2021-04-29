@@ -7,7 +7,7 @@
           type="search"
           placeholder="Procure por um nome ou categoria de empresa"
           class="v-text-field"
-          :value="value"
+          :value="search"
           @input.native="$emit('input', $event.target.value)"
         />
       </v-col>
@@ -19,14 +19,9 @@
 import './style.scss'
 export default {
   props: {
-    value: {
+    search: {
       type: [String, Number],
       default: String,
-    },
-  },
-  methods: {
-    search(text) {
-      this.$emit('input', text)
     },
   },
 }
