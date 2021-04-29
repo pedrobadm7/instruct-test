@@ -17,13 +17,13 @@
           </div>
           <div class="items">
             <fa-icon icon="building" />
-            <h1>Company:</h1>
+            <h1>Empresa:</h1>
 
             <p>{{ item.company.name }}</p>
           </div>
           <div class="items">
             <fa-icon icon="building" />
-            <h1>Company Bs:</h1>
+            <h1>Categoria de empresa:</h1>
 
             <p>{{ item.company.bs }}</p>
           </div>
