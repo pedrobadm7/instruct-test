@@ -5,7 +5,7 @@
       <v-col cols="12" sm="6" class="v-col">
         <v-text-field
           type="search"
-          placeholder="Procure por um nome ou categoria de empresa"
+          placeholder="Procure por nome ou categoria"
           class="v-text-field"
           :value="search"
           @input.native="$emit('input', $event.target.value)"
@@ -27,4 +27,3 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped="true"></style>

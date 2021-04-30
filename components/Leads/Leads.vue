@@ -23,7 +23,7 @@
           </div>
           <div class="items">
             <fa-icon icon="building" />
-            <h1>Categoria de empresa:</h1>
+            <h1>Categoria:</h1>
 
             <p>{{ item.company.bs }}</p>
           </div>

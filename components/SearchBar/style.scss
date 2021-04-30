@@ -10,7 +10,14 @@
 
   h1 {
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     padding: 10px;
+  }
+
+  @media (max-width: 393px) {
+    h1 {
+      font-size: 1rem;
+    }
   }
 
   .v-col {
@@ -29,6 +36,12 @@
     padding: 15px;
 
     border-radius: 10px;
+  }
+
+  @media (max-width: 393px) {
+    .v-text-field {
+      width: 230px;
+    }
   }
 
   .v-btn {
