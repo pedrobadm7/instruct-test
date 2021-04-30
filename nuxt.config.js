@@ -21,6 +21,11 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap',
       },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.png',
+      },
     ],
   },
 
@@ -52,7 +57,7 @@ export default {
         'faPhoneSquareAlt',
         'faBuilding',
         'faSearch',
-        'faMapMarkerAlt'
+        'faMapMarkerAlt',
       ],
     },
   },
